@@ -1,0 +1,35 @@
+@hostname = http://localhost:3000
+@api = {{hostname}}/api/Characters
+
+###
+GET {{api}}/id/64616e4ef0c2efb17b94bda3
+
+###
+GET {{api}}
+
+
+###
+POST  {{api}}
+Content-Type: application/json
+
+{
+    "name": "PseudoStylé4",
+    "type": "HEAL",
+    "spec": "priest"
+}
+
+###
+
+DELETE {{api}}/646162bb262f8b79e6103b7a
+Content-Type: application/json
+
+###
+#update
+PUT {{api}}/64616e4ef0c2efb17b94bda3
+content-type: application/json
+
+{ 	
+
+    "name": "enorme"
+
+}

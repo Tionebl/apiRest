@@ -1,0 +1,21 @@
+@hostname = http://localhost:3000
+@api = {{hostname}}/api/users
+
+#  @name login
+POST {{hostname}}/login HTTP/1.1
+content-type: application/json
+
+{
+	"username": "sa",
+	"password": "k4f6dnXBLQ"
+}
+
+###
+#  @name login
+POST {{hostname}}/login HTTP/1.1
+content-type: application/json
+
+{
+	"username": "admin",
+	"password": "k4f6dnXBLQ"
+}
